@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8AE8582-F32E-4D59-B519-C3CFEE146F40}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MaquinasDeTuring.My.MyApplication</StartupObject>
+    <RootNamespace>MaquinasDeTuring</RootNamespace>
+    <AssemblyName>MaquinasDeTuring</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MaquinasDeTuring.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MaquinasDeTuring.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Binario.Designer.vb">
+      <DependentUpon>Binario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Binario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carga.Designer.vb">
+      <DependentUpon>Carga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Carga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContadorLetras.Designer.vb">
+      <DependentUpon>ContadorLetras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContadorLetras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Duplicador.Designer.vb">
+      <DependentUpon>Duplicador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Duplicador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impar0y1.Designer.vb">
+      <DependentUpon>Impar0y1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Impar0y1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="P101.Designer.vb">
+      <DependentUpon>P101.vb</DependentUpon>
+    </Compile>
+    <Compile Include="P101.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Par0y1.Designer.vb">
+      <DependentUpon>Par0y1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Par0y1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paridad.Designer.vb">
+      <DependentUpon>Paridad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Paridad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PredecesorUnario.Designer.vb">
+      <DependentUpon>PredecesorUnario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PredecesorUnario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pruebas.Designer.vb">
+      <DependentUpon>Pruebas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pruebas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SucesorBinario.Designer.vb">
+      <DependentUpon>SucesorBinario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SucesorBinario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SucesorUnario.Designer.vb">
+      <DependentUpon>SucesorUnario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SucesorUnario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Binario.resx">
+      <DependentUpon>Binario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carga.resx">
+      <DependentUpon>Carga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContadorLetras.resx">
+      <DependentUpon>ContadorLetras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Duplicador.resx">
+      <DependentUpon>Duplicador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Impar0y1.resx">
+      <DependentUpon>Impar0y1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P101.resx">
+      <DependentUpon>P101.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Par0y1.resx">
+      <DependentUpon>Par0y1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paridad.resx">
+      <DependentUpon>Paridad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PredecesorUnario.resx">
+      <DependentUpon>PredecesorUnario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pruebas.resx">
+      <DependentUpon>Pruebas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SucesorBinario.resx">
+      <DependentUpon>SucesorBinario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SucesorUnario.resx">
+      <DependentUpon>SucesorUnario.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MTfondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MTfondo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inicio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fin.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

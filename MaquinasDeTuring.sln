@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MaquinasDeTuring", "MaquinasDeTuring\MaquinasDeTuring.vbproj", "{C8AE8582-F32E-4D59-B519-C3CFEE146F40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8AE8582-F32E-4D59-B519-C3CFEE146F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AE8582-F32E-4D59-B519-C3CFEE146F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AE8582-F32E-4D59-B519-C3CFEE146F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AE8582-F32E-4D59-B519-C3CFEE146F40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
